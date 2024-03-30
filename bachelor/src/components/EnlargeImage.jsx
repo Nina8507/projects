@@ -13,16 +13,14 @@ const EnlargeableImage = ({ src }) => {
   return (
     <div onClick={toggleEnlarged}>
       {isEnlarged ? (
-        <img src={src} style={styles.missionTarge} alt=''/>
+        <img src={src} style={{ maxWidth: '2000px', height: 'auto', cursor: 'pointer' }} alt='' class="zoom_image"/>
       ) : (
-        <img src={src} style={{ maxWidth: '2000px', height: 'auto', cursor: 'pointer' }} alt=''/>
+        <img src={src} style={styles.missionTarge} alt=''class="zoom_image"/>
       )}
       {/* Text on hover */}
       {!isEnlarged && (
-        <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', zIndex: 1 }}>
-          <p style={{ color: 'white', backgroundColor: 'black', padding: '8px', borderRadius: '4px' }}>
-            Click to Zoom
-          </p>
+        <div class="popup">
+          <p>ZOOM</p>
         </div>
       )}
     </div>
