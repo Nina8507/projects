@@ -83,6 +83,9 @@ const LoRaDescription = () => {
                             <img src={java} alt="" />
                             <img src={aws} alt="" />
                             <img src={sql} alt="" />
+                        </div>
+
+                        <div className={smallStyles.cardTitle}>
                             <img src={bi} alt="" />
                         </div>
                     </div>     
