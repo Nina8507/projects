@@ -64,11 +64,14 @@ const BachelorDescription = () => {
                     <p>Language, frameworks and tools</p>
                     <br />
                     <br/>
-                        <div className={smallStyles.teamCard}>
-                            <div className={smallStyles.cardTitle}>
+                    <div className={smallStyles.teamCard}>
+                        <div className={smallStyles.cardTitle}>
                             <img src={scrum} alt="" />
                             <img src={python} alt="" />
                             <img src={docker} alt="" />
+                        </div>
+
+                        <div className={smallStyles.cardTitle}>
                             <img src={tensorflow} alt="" />
                             <img src={jira} alt="" />
                         </div>

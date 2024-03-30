@@ -69,13 +69,16 @@ const LoRaDescription = () => {
                 <section className={iconStyles.footerBottom}>
                     <p>Language, frameworks and tools</p>
                     <br />
-                    <br/>
-                        <div className={smallStyles.teamCard}>
-                            <div className={smallStyles.cardTitle}>
+                    <br />
+                    <div className={smallStyles.teamCard}>
+                        <div className={smallStyles.cardTitle}>
                             <img src={scrum} alt="" />
                             <img src={astah} alt="" />
                             <img src={springboot} alt="" />
                             <img src={android} alt="" />
+                        </div>
+
+                        <div className={smallStyles.cardTitle}>
                             <img src={c} alt="" />
                             <img src={java} alt="" />
                             <img src={aws} alt="" />
@@ -89,4 +92,4 @@ const LoRaDescription = () => {
     );
 }
  
-export default LoRaDescription;
+export default LoRaDescription;     
