@@ -11,9 +11,9 @@ const HomePageHero = () => {
     return (
       <div className='context-wrapper bottom-divider'>
         <h1 className={`${styles.heroTitle} title-main`}>Software Projects</h1>
-        <p className={`${styles.heroText} text-main`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nibh urna in proin dui purus bibendum cras. Morbi cursus nunc.</p>
+        <p className={`${styles.heroText} text-main`}>A multi-page application designed to provide detailed descriptions of the software projects I have developed or have been a part of the development team.</p>
         <br />
-        <p className={`${styles.heroText} text-main`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nibh urna in proin dui purus bibendum cras. Morbi cursus nunc.</p>
+        <p className={`${styles.heroText} text-main`}>An overview of the architectural design, language and frameworks used, complete with a short background description for each project, will help enhance the understanding of the system. </p>
 
         <div className={styles.heroImages}>
           <img className={styles.laptopImage} src={lora} alt="" />
