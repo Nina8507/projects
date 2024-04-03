@@ -4,8 +4,8 @@ import React from 'react';
 import styles from "../styles/LoRaPage/LoRaPage.module.scss";
 
 // Components
-import LoRaTitle from "../components/LoRaTitle";
-import LoRaDescription from "../components/LoRaDescription";
+import LoRaTitle from "../components/LoRaComponents/LoRaTitle";
+import LoRaDescription from "../components/LoRaComponents/LoRaDescription";
 import Footer from "../components/Footer";
 
 

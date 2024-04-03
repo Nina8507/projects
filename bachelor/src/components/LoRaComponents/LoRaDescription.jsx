@@ -2,26 +2,26 @@ import React from 'react';
 import EnlargeableImage from './EnlargeImage';
 
 // Styles
-import styles from "../styles/LoRaPage/LoRaPage.module.scss";
-import iconStyles from "../styles/Footer.module.scss";
-import smallStyles from "../styles/Icons.module.scss";
+import styles from "../../styles/LoRaPage/LoRaPage.module.scss";
+import iconStyles from "../../styles/Footer.module.scss";
+import smallStyles from "../../styles/Icons.module.scss";
 
 // Images
-import lora_dm from "../assets/projects_img/Lora_Domain Model.svg";
-import lora_deployment from "../assets/projects_img/DeploymentDiagramSEP4.svg";
-import mapping from "../assets/projects_img/Screenshot from 2024-03-29 01-03-38.png";
-import activity from "../assets/projects_img/ActivityDiagram_IncrementalLoad.svg";
-import vis_bi from "../assets/projects_img/PowerBiDashboard-1.png";
+import lora_dm from "../../assets/projects_img/Lora_Domain Model.svg";
+import lora_deployment from "../../assets/projects_img/DeploymentDiagramSEP4.svg";
+import mapping from "../../assets/projects_img/Screenshot from 2024-03-29 01-03-38.png";
+import activity from "../../assets/projects_img/ActivityDiagram_IncrementalLoad.svg";
+import vis_bi from "../../assets/projects_img/PowerBiDashboard-1.png";
 
-import scrum from "../assets/skills/scrum.svg";
-import astah from "../assets/skills/astah.svg";
-import springboot from "../assets/skills/spring-boot.svg";
-import android from "../assets/skills/android.svg";
-import c from "../assets/skills/C.png";
-import java from "../assets/skills/java.svg";
-import aws from "../assets/skills/aws.svg";
-import sql from "../assets/skills/microsoft-sql-server-logo-svgrepo-com.svg";
-import bi from "../assets/skills/powerBi.svg";
+import scrum from "../../assets/skills/scrum.svg";
+import astah from "../../assets/skills/astah.svg";
+import springboot from "../../assets/skills/spring-boot.svg";
+import android from "../../assets/skills/android.svg";
+import c from "../../assets/skills/C.png";
+import java from "../../assets/skills/java.svg";
+import aws from "../../assets/skills/aws.svg";
+import sql from "../../assets/skills/microsoft-sql-server-logo-svgrepo-com.svg";
+import bi from "../../assets/skills/powerBi.svg";
 
 const LoRaDescription = () => {
     return (

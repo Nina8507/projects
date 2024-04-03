@@ -1,11 +1,11 @@
 import React from 'react';
 
 // Styles
-import styles from "../styles/HomePage/HomePageTitle.module.scss";
+import styles from "../../styles/HomePage/HomePageTitle.module.scss";
 
 // Images
-import lora from "../assets/projects_img/code_guide.jpg";
-import wms from "../assets/projects_img/java_small.webp";
+import lora from "../../assets/projects_img/code_guide.jpg";
+import wms from "../../assets/projects_img/java_small.webp";
 
 const HomePageHero = () => {
     return (

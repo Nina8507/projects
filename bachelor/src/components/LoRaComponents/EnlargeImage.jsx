@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import styles from "../styles/LoRaPage/LoRaPage.module.scss";
+import styles from "../../styles/LoRaPage/LoRaPage.module.scss";
 
 
 const EnlargeableImage = ({ src }) => {

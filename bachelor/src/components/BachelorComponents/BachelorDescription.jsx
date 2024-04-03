@@ -1,18 +1,17 @@
 import React from 'react';
-import DownloadButton from "../components/DownoadButton";
 
 // Styles
-import styles from "../styles/LoRaPage/LoRaPage.module.scss";
-import iconStyles from "../styles/Footer.module.scss";
-import smallStyles from "../styles/Icons.module.scss";
+import styles from "../../styles/LoRaPage/LoRaPage.module.scss";
+import iconStyles from "../../styles/Footer.module.scss";
+import smallStyles from "../../styles/Icons.module.scss";
 
 // Icons
-import scrum from '../assets/skills/scrum.svg'
-import python from "../assets/skills/python.svg";
-import tensorflow from "../assets/skills/tensorflow.svg";
-import docker from "../assets/skills/docker.svg";
-import jira from "../assets/skills/atlassian.svg";
-import scikit from "../assets/skills/Scikit_learn_logo.svg";
+import scrum from '../../assets/skills/scrum.svg'
+import python from "../../assets/skills/python.svg";
+import tensorflow from "../../assets/skills/tensorflow.svg";
+import docker from "../../assets/skills/docker.svg";
+import jira from "../../assets/skills/atlassian.svg";
+import scikit from "../../assets/skills/Scikit_learn_logo.svg";
 
 const BachelorDescription = () => {
     return (

@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Styles
-import styles from "../styles/DownloadButton.module.scss";
+import styles from "../../styles/DownloadButton.module.scss";
 
 
 const DownloadButton = () => {

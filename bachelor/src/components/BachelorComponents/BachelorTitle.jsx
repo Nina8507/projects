@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Styles
-import styles from "../styles/LoRaPage/LoRaPage.module.scss";
+import styles from "../../styles/LoRaPage/LoRaPage.module.scss";
 
 const BachelorTitle = () => {
     return (
